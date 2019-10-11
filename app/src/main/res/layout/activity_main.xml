@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/a"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:background="#abcdef"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:text="A"
+        android:gravity="center"
+        android:textSize="14sp"
+        android:textColor="#ff0000"/>
+
+    <TextView
+        android:id="@+id/b"
+        android:layout_width="200dp"
+        android:layout_height="180dp"
+        android:background="#009999"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="200dp"
+        android:text="B"
+        android:gravity="center"
+        android:textSize="14sp"
+        android:textColor="#ff0000"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/a2b"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="A-B"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"/>
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/b2a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="B-A"
+        android:layout_gravity="bottom|right"
+        android:layout_marginBottom="20dp"
+        android:layout_marginRight="20dp"/>
+
+</FrameLayout>
